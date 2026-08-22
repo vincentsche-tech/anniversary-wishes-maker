@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anniversary Wishes Generator – Romantic, Funny &amp; Short Messages</title>
+<meta name="description" content="Generate the perfect anniversary wish in seconds. Romantic, funny, short, or religious messages for your husband, wife, couple, parents, or friends. Free, instant, copy & send.">
+<link rel="canonical" href="https://anniversarywishesmaker.com/">
+<meta name="theme-color" content="#b8860b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%82%3C/text%3E%3C/svg%3E">
+<!-- Google Analytics 4: TODO replace G-XXXXXXXXXX with your new GA4 Measurement ID for anniversarywishesmaker.com -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+<style>
+  :root{--bg:#fdf9f2;--card:#fff;--ink:#3a362f;--muted:#8d8578;--accent:#b8860b;--accent-dark:#9a7209;--soft:#faf3e3;--line:#eee5d2;--radius:14px;--shadow:0 4px 20px rgba(58,54,47,.06);}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;}
+  h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:700;letter-spacing:-.2px;}
+  header{background:#fff;border-bottom:1px solid var(--line);padding:16px 0;}
+  header .inner{max-width:960px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .logo{background:var(--accent);color:#fff;font-family:Georgia,serif;font-size:15px;font-weight:700;padding:7px 14px;border-radius:8px;text-decoration:none;}
+  nav.topnav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap;}
+  nav.topnav a{color:var(--muted);font-size:14px;text-decoration:none;}
+  nav.topnav a:hover{color:var(--accent);}
+  main{max-width:960px;margin:0 auto;padding:36px 20px 64px;}
+  .hero{text-align:center;margin-bottom:32px;}
+  .hero h1{font-size:34px;line-height:1.25;}
+  .hero p{color:var(--muted);margin-top:12px;font-size:16px;max-width:640px;margin-left:auto;margin-right:auto;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:28px;margin-bottom:24px;}
+  .card h2{font-size:20px;margin-bottom:14px;}
+  label{display:block;font-size:14px;font-weight:600;margin-bottom:6px;color:var(--ink);}
+  select{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;font-size:15px;background:#fff;color:var(--ink);margin-bottom:16px;}
+  select:focus{outline:none;border-color:var(--accent);}
+  .pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;}
+  .pill{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-size:14px;cursor:pointer;color:var(--ink);transition:all .15s;font-weight:500;}
+  .pill:hover{border-color:var(--accent);}
+  .pill.active{background:var(--accent);border-color:var(--accent);color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;border:none;border-radius:10px;padding:13px 28px;font-size:16px;font-weight:600;cursor:pointer;transition:background .15s;width:100%;}
+  .btn:hover{background:var(--accent-dark);}
+  .result-card{display:none;}
+  .msg-item{display:flex;align-items:flex-start;gap:10px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px;}
+  .msg-text{flex:1;font-size:15px;line-height:1.65;}
+  .msg-copy{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:7px 14px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0;}
+  .msg-copy.copied{background:#c9a227;}
+  .hint{color:var(--muted);font-size:13px;margin-top:10px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;}
+  .scene-card{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:all .15s;}
+  .scene-card:hover{border-color:var(--accent);box-shadow:var(--shadow);}
+  .scene-card b{font-size:15px;display:block;margin-bottom:4px;color:var(--accent-dark);}
+  .scene-card span{font-size:13.5px;color:var(--muted);}
+  .advice-box{background:var(--soft);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;padding:18px 20px;margin:16px 0;}
+  .advice-box h3{font-size:16px;margin-bottom:8px;}
+  .advice-box ul{margin-left:20px;}
+  .advice-box li{margin-bottom:6px;font-size:14.5px;}
+  .faq-item{margin-bottom:18px;}
+  .faq-item b{display:block;margin-bottom:4px;font-size:15px;}
+  .faq-item p{font-size:14.5px;color:#6b6356;}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:28px 0 48px;border-top:1px solid var(--line);}
+  footer a{color:var(--accent);text-decoration:none;}
+  .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--ink);color:#fff;padding:10px 22px;border-radius:999px;font-size:14px;opacity:0;transition:all .3s;pointer-events:none;z-index:99;}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+  @media(max-width:600px){.hero h1{font-size:26px;}}
+</style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <a class="logo" href="/">🥂 Anniversary Wishes</a>
+    <nav class="topnav">
+      <a href="/">Generator</a>
+      <a href="/anniversary-wishes-for-husband.html">For Husband</a>
+      <a href="/anniversary-wishes-for-wife.html">For Wife</a>
+      <a href="/anniversary-wishes-for-couple.html">For Couple</a>
+      <a href="/work-anniversary-wishes.html">Work</a>
+      <a href="/about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <h1>Anniversary Wishes Generator</h1>
+    <p>Stuck on what to write? Choose who it's for, pick a style, and get heartfelt anniversary wishes in seconds — romantic, funny, short, or faith-filled. Free forever.</p>
+  </div>
+
+  <div class="card">
+    <h2>✍️ Create Your Anniversary Wish</h2>
+    <div class="grid" style="grid-template-columns:1fr 1fr;gap:0 24px;">
+      <div>
+        <label for="who">Who is the wish for?</label>
+        <select id="who">
+          <option value="husband">My husband</option>
+          <option value="wife">My wife</option>
+          <option value="couple">A couple (friends/family)</option>
+          <option value="parents">My parents</option>
+          <option value="friend">Friends</option>
+        </select>
+      </div>
+      <div>
+        <label for="milestone">Special milestone (optional)</label>
+        <select id="milestone">
+          <option value="">No special milestone</option>
+          <option value="1st">1st anniversary</option>
+          <option value="25th">25th anniversary (silver)</option>
+          <option value="50th">50th anniversary (golden)</option>
+          <option value="work">Work anniversary</option>
+        </select>
+      </div>
+    </div>
+    <label style="margin-top:4px;">Choose a style</label>
+    <div class="pill-row" id="tonePills">
+      <span class="pill active" data-tone="romantic">🥰 Romantic</span>
+      <span class="pill" data-tone="funny">😂 Funny</span>
+      <span class="pill" data-tone="short">📝 Short</span>
+      <span class="pill" data-tone="religious">🙏 Religious</span>
+    </div>
+    <button class="btn" id="generateBtn">✨ Write My Anniversary Wish</button>
+    <p class="hint">Free forever. No sign-up needed. Pick the one that feels right, then add your own touch.</p>
+  </div>
+
+  <div class="card result-card" id="resultCard">
+    <h2>💌 Your Anniversary Wishes</h2>
+    <div id="results"></div>
+    <p class="hint">Tip: add a personal memory or inside joke to make it unforgettable.</p>
+  </div>
+
+  <div class="card">
+    <h2>How to Write an Anniversary Wish They'll Remember</h2>
+    <div class="advice-box">
+      <h3>The Golden Rules</h3>
+      <ul>
+        <li><b>Make it personal.</b> Mention a memory, a tradition, or the little things you love.</li>
+        <li><b>Match the relationship.</b> Romantic for your partner, warm and playful for friends.</li>
+        <li><b>Keep it sincere.</b> A short message from the heart beats a long, generic one.</li>
+        <li><b>Name the milestone.</b> "25 years!" or "Our first anniversary" makes it special.</li>
+      </ul>
+    </div>
+    <p style="margin-top:14px;font-size:15px;">Need inspiration for a specific person? Browse <a href="/anniversary-wishes-for-husband.html" style="color:var(--accent);">wishes for husband</a>, <a href="/anniversary-wishes-for-wife.html" style="color:var(--accent);">wishes for wife</a>, or <a href="/anniversary-wishes-for-couple.html" style="color:var(--accent);">wishes for a couple</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Anniversary Wishes by Person &amp; Milestone</h2>
+    <div class="grid">
+      <a class="scene-card" href="/anniversary-wishes-for-husband.html"><b>For Husband</b><span>Romantic and funny wishes for your man.</span></a>
+      <a class="scene-card" href="/anniversary-wishes-for-wife.html"><b>For Wife</b><span>Sweet messages for your wife.</span></a>
+      <a class="scene-card" href="/anniversary-wishes-for-couple.html"><b>For a Couple</b><span>Wishes for friends and family couples.</span></a>
+      <a class="scene-card" href="/anniversary-wishes-for-parents.html"><b>For Parents</b><span>Celebrate Mom and Dad's love.</span></a>
+      <a class="scene-card" href="/1st-anniversary-wishes.html"><b>1st Anniversary</b><span>Messages for year one of forever.</span></a>
+      <a class="scene-card" href="/25th-anniversary-wishes.html"><b>25th Anniversary (Silver)</b><span>A quarter century of love.</span></a>
+      <a class="scene-card" href="/50th-anniversary-wishes.html"><b>50th Anniversary (Golden)</b><span>Half a century together.</span></a>
+      <a class="scene-card" href="/work-anniversary-wishes.html"><b>Work Anniversary</b><span>Professional milestones done right.</span></a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item"><b>What is the best anniversary wish?</b><p>The best wishes are personal. Mention a memory, name the milestone, and speak from the heart. A short, sincere message beats a long generic one every time.</p></div>
+    <div class="faq-item"><b>Should I write a funny or romantic anniversary wish?</b><p>It depends on the relationship and the couple's style. For your partner, romantic usually lands best; for friends or colleagues, funny works great. When in doubt, warm and sincere never fails.</p></div>
+    <div class="faq-item"><b>What do you write for a 25th or 50th anniversary?</b><p>Name the milestone — silver for 25, golden for 50 — and acknowledge the achievement: "25 years of love is a beautiful thing. Congratulations!"</p></div>
+    <div class="faq-item"><b>Is it okay to send an anniversary message by text?</b><p>Absolutely. A heartfelt text means just as much as a card, especially for friends and family. For your partner, consider adding a handwritten note for extra romance.</p></div>
+  </div>
+</main>
+
+<footer>
+  Copyright <span id="year"></span> © <a href="/">Anniversary Wishes</a>. Made with love for all the anniversaries.<br>
+  <a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy-policy.html">Privacy</a> · <a href="/terms.html">Terms</a>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ---------- wordbank v0.1 ---------- */
+const WORDBANK = {
+  husband: {
+    romantic: [
+      "Happy anniversary to my husband, my best friend, and my favorite person. Every year with you is my favorite year.",
+      "To the man who still gives me butterflies: happy anniversary. Loving you is the easiest and best thing I've ever done.",
+      "Another year of us, and I love you more today than I did on our wedding day. Happy anniversary, my love.",
+      "Thank you for choosing me every single day. Happy anniversary to the love of my life."
+    ],
+    funny: [
+      "Happy anniversary! Thanks for putting up with me for another year — I promise I'm still worth it. 😉",
+      "Happy anniversary to my favorite person to annoy for life. Love you anyway!",
+      "Another year married, and you still haven't run away. That's true love. Happy anniversary!",
+      "Happy anniversary! We've survived years of my cooking and your snoring. Here's to forever!"
+    ],
+    short: [
+      "Happy anniversary, my love. Here's to us.",
+      "Still crazy about you after all these years. Happy anniversary!",
+      "Happy anniversary to my favorite person in the world.",
+      "Every day with you is a gift. Happy anniversary!"
+    ],
+    religious: [
+      "Happy anniversary, my love. Thank God every day for bringing you into my life. 'Two are better than one' (Ecclesiastes 4:9).",
+      "Celebrating another year of God's blessing on our marriage. Happy anniversary, my husband.",
+      "May God continue to bless our marriage as we celebrate another year together. Happy anniversary!"
+    ]
+  },
+  wife: {
+    romantic: [
+      "Happy anniversary to my beautiful wife. You are the best thing that ever happened to me, and I fall for you more every year.",
+      "To my wife, my partner, my home: happy anniversary. Loving you is the greatest privilege of my life.",
+      "Every love story is beautiful, but ours is my favorite. Happy anniversary, my darling wife.",
+      "Thank you for being my soft place to land. Happy anniversary to the woman who makes everything better."
+    ],
+    funny: [
+      "Happy anniversary to the woman who still laughs at my jokes. You're a keeper (and so am I, apparently).",
+      "Happy anniversary! You're still the best decision I ever made. My second-best decision was learning to say 'yes, dear.'",
+      "Another year of marriage and you still haven't filed for divorce. Winning! Happy anniversary!",
+      "Happy anniversary! Thanks for being my better half — literally, because I'm only half as good without you."
+    ],
+    short: [
+      "Happy anniversary to my amazing wife.",
+      "You're my everything. Happy anniversary, my love.",
+      "Happy anniversary to the woman who makes life beautiful.",
+      "Still the love of my life. Happy anniversary!"
+    ],
+    religious: [
+      "Happy anniversary, my love. 'Love is patient, love is kind' (1 Corinthians 13:4) — and you are both. Thank God for you.",
+      "Celebrating the gift of our marriage. Happy anniversary to my wonderful wife. God blessed me with you.",
+      "May God continue to guide our marriage with love. Happy anniversary, my dear wife."
+    ]
+  },
+  couple: {
+    romantic: [
+      "Happy anniversary to a couple whose love inspires everyone around them. Wishing you many more years of happiness.",
+      "May your love continue to grow deeper with every passing year. Happy anniversary to a beautiful couple!",
+      "Happy anniversary! Your love story is proof that true love exists. Wishing you a lifetime of joy.",
+      "Watching the two of you together is a reminder that love really does conquer all. Happy anniversary!"
+    ],
+    funny: [
+      "Happy anniversary! May your love continue to grow, and may your arguments stay about whose turn it is to pick the movie.",
+      "Happy anniversary to the couple who proves that love is real — and that sharing a blanket is still a struggle.",
+      "Congrats on another year of marriage! You've officially survived years of each other's quirks. Impressive!",
+      "Happy anniversary! Here's to love, laughter, and happily ever after (with occasional bickering over the thermostat)."
+    ],
+    short: [
+      "Happy anniversary to a wonderful couple!",
+      "Wishing you both a happy anniversary filled with love.",
+      "Happy anniversary! May your love story never end.",
+      "Congratulations on another year of love. Happy anniversary!"
+    ],
+    religious: [
+      "Happy anniversary! May God continue to bless your marriage with love, patience, and joy. 'What God has joined together' (Mark 10:9).",
+      "Celebrating the beautiful marriage God has blessed. Happy anniversary to a wonderful couple!",
+      "May your anniversary be filled with gratitude for the love God has given you. Blessings on your marriage!"
+    ]
+  },
+  parents: {
+    romantic: [
+      "Happy anniversary to the couple who taught me what love looks like. Your love is my favorite example of forever.",
+      "Thank you for showing us what a real marriage looks like. Happy anniversary, Mom and Dad!",
+      "Your love story built our family, and we're so grateful. Happy anniversary to the best parents in the world!",
+      "Every milestone you celebrate together is a gift to our family. Happy anniversary, Mom and Dad!"
+    ],
+    funny: [
+      "Happy anniversary, Mom and Dad! Thanks for proving that love (and patience) can survive decades of parenting.",
+      "Congrats on another year of marriage! You two are the reason I believe in love — and in family game nights.",
+      "Happy anniversary to the original lovebirds! Thanks for setting the bar (and for all those years of embarrassing us lovingly).",
+      "Another year married, another year of Dad's jokes and Mom's eye rolls. Happy anniversary! True love indeed."
+    ],
+    short: [
+      "Happy anniversary to the best parents in the world!",
+      "Wishing you both a beautiful anniversary. We love you!",
+      "Happy anniversary, Mom and Dad! So grateful for your love.",
+      "Congrats on another year of love. Happy anniversary!"
+    ],
+    religious: [
+      "Happy anniversary, Mom and Dad! Your marriage is a testimony of God's faithfulness. We're so blessed by your example.",
+      "Thank you for building our family on love and faith. Happy anniversary, and may God continue to bless your marriage.",
+      "Celebrating the godly marriage you've modeled for us. Happy anniversary, Mom and Dad!"
+    ]
+  },
+  friend: {
+    romantic: [
+      "Happy anniversary to two of my favorite people! Your love is beautiful to witness.",
+      "Wishing my favorite couple a happy anniversary! May your love keep growing stronger.",
+      "So happy to celebrate your anniversary! Your relationship is one of the best things in my life to watch."
+    ],
+    funny: [
+      "Happy anniversary, you two! Thanks for being the couple that gives the rest of us hope (and couple goals).",
+      "Congrats on another year of marriage! I've seen you fight over the remote, so I know this love is real.",
+      "Happy anniversary! May your love be as strong as your WiFi connection. (So, very strong.)"
+    ],
+    short: [
+      "Happy anniversary to a wonderful couple!",
+      "Wishing you both a beautiful anniversary!",
+      "Happy anniversary! So happy for you two.",
+      "Congrats on another year of love!"
+    ],
+    religious: [
+      "Happy anniversary! May God continue to bless your marriage richly. So happy to celebrate you both.",
+      "Celebrating God's goodness in your marriage. Happy anniversary, friends!",
+      "Wishing you a blessed anniversary. Your marriage is a testimony!"
+    ]
+  }
+};
+
+const MILESTONES = {
+  "1st": {
+    romantic: [
+      "Happy 1st anniversary! The first year of forever, and it's been the best year of my life.",
+      "One year down, forever to go. Happy 1st anniversary, my love!",
+      "Happy anniversary! Year one was beautiful — I can't wait for all the years ahead."
+    ],
+    funny: [
+      "Happy 1st anniversary! We survived year one — the hardest part is over (or so they say).",
+      "One year married! You've officially seen me at my best and my most annoying. And you stayed. Happy anniversary!",
+      "Happy 1st anniversary! Year one complete, and you still haven't run for the hills. Impressive."
+    ],
+    short: [
+      "Happy 1st anniversary! Here's to forever.",
+      "One year of us. Happy anniversary, my love!",
+      "Happy 1st anniversary to my favorite person!"
+    ],
+    religious: [
+      "Happy 1st anniversary! Thank God for our first year of marriage. What a beautiful beginning.",
+      "Celebrating one year of God's blessing on our marriage. Happy anniversary, my love!"
+    ]
+  },
+  "25th": {
+    romantic: [
+      "Happy 25th anniversary! A quarter century of love, and you still make my heart skip a beat.",
+      "Twenty-five years ago we said 'I do,' and I'd say it again a thousand times. Happy silver anniversary, my love.",
+      "Happy 25th anniversary! Our love has stood the test of time — and it's only getting stronger."
+    ],
+    funny: [
+      "Happy 25th anniversary! 25 years of you stealing the covers. Worth it.",
+      "Congrats on 25 years! That's 9,125 days of marriage — and you've made it look easy (mostly).",
+      "Happy silver anniversary! 25 years of love, laughter, and 'what did you say?' — here's to 25 more!"
+    ],
+    short: [
+      "Happy 25th anniversary! What a milestone.",
+      "25 years of love. Happy silver anniversary!",
+      "Congratulations on 25 beautiful years together!"
+    ],
+    religious: [
+      "Happy 25th anniversary! A quarter century of God's faithfulness to your marriage. What a blessing!",
+      "Celebrating 25 years of marriage — a testimony of love and faith. Happy silver anniversary!",
+      "Thank God for 25 years of your marriage. May He bless you with 25 more. Happy anniversary!"
+    ]
+  },
+  "50th": {
+    romantic: [
+      "Happy 50th anniversary! Half a century of love, and your story is more beautiful than any fairy tale.",
+      "Fifty years ago you promised forever — and you meant it. Happy golden anniversary, my love.",
+      "Happy 50th anniversary! Your love has been the gold standard for everyone who knows you."
+    ],
+    funny: [
+      "Happy 50th anniversary! 50 years — you've officially made it longer than most appliances and just as reliable. 😉",
+      "Congrats on 50 years! That's half a century of 'I love you' and 'did you take out the trash?' Beautifully done.",
+      "Happy golden anniversary! 50 years of marriage — you two are the real gold."
+    ],
+    short: [
+      "Happy 50th anniversary! A golden milestone.",
+      "50 years of love. Happy golden anniversary!",
+      "Congratulations on 50 beautiful years together!"
+    ],
+    religious: [
+      "Happy 50th anniversary! Half a century of God's faithfulness to your marriage. Truly a golden blessing!",
+      "Celebrating 50 years of marriage — a shining testimony of love and faith. Happy golden anniversary!",
+      "Thank God for 50 years of your marriage. May your golden anniversary be filled with joy and gratitude."
+    ]
+  },
+  work: {
+    romantic: [
+      "Happy work anniversary! Your dedication and passion inspire everyone on the team.",
+      "Congratulations on another year of excellence! Your contributions have made a real difference.",
+      "Happy work anniversary! Thank you for your commitment and the positive energy you bring every day."
+    ],
+    funny: [
+      "Happy work anniversary! Thanks for showing up, showing out, and not showing up late too often.",
+      "Congrats on another year at the office! We'd be lost without you (literally — the printer confuses us).",
+      "Happy work anniversary! Another year of making it look easy. Your coffee skills and teamwork are unmatched."
+    ],
+    short: [
+      "Happy work anniversary! We're lucky to have you.",
+      "Congrats on another great year! Happy anniversary.",
+      "Happy work anniversary! Here's to many more.",
+      "Happy anniversary at work — you're appreciated!"
+    ],
+    religious: [
+      "Happy work anniversary! May God continue to bless your work and your calling.",
+      "Congrats on your work anniversary! 'Whatever you do, work at it with all your heart' (Colossians 3:23). You embody this."
+    ]
+  }
+};
+
+/* ---------- state ---------- */
+let tone = "romantic";
+
+document.querySelectorAll("#tonePills .pill").forEach(p => {
+  p.addEventListener("click", () => {
+    document.querySelectorAll("#tonePills .pill").forEach(x => x.classList.remove("active"));
+    p.classList.add("active");
+    tone = p.dataset.tone;
+  });
+});
+
+function shuffle(a){return a.slice().sort(() => Math.random() - 0.5);}
+
+function generate() {
+  const who = document.getElementById("who").value;
+  const milestone = document.getElementById("milestone").value;
+  let picks = [];
+  if (milestone && MILESTONES[milestone]) {
+    picks = shuffle(MILESTONES[milestone][tone] || MILESTONES[milestone].romantic).slice(0, 3);
+  } else {
+    picks = shuffle(WORDBANK[who][tone] || WORDBANK[who].romantic).slice(0, 4);
+  }
+  const wrap = document.getElementById("results");
+  wrap.innerHTML = "";
+  picks.forEach(msg => {
+    const item = document.createElement("div");
+    item.className = "msg-item";
+    item.innerHTML = '<div class="msg-text"></div><button class="msg-copy">Copy</button>';
+    item.querySelector(".msg-text").textContent = msg;
+    item.querySelector(".msg-copy").addEventListener("click", function(e) {
+      e.stopPropagation();
+      copyText(msg, this);
+    });
+    wrap.appendChild(item);
+  });
+  document.getElementById("resultCard").style.display = "block";
+  document.getElementById("resultCard").scrollIntoView({ behavior: "smooth", block: "start" });
+  gtag('event', 'wish_generated', { recipient: who, milestone: milestone, tone: tone });
+}
+
+function copyText(text, btnEl) {
+  const done = () => {
+    if (btnEl) { btnEl.textContent = "✓ Copied"; btnEl.classList.add("copied"); setTimeout(() => { if(btnEl){btnEl.textContent="Copy";btnEl.classList.remove("copied");} }, 1800); }
+    showToast("Copied! Add your personal touch 💛");
+    gtag('event', 'wish_copied', {});
+  };
+  if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(text).then(done).catch(function(){fallbackCopy(text, done);}); }
+  else { fallbackCopy(text, done); }
+}
+function fallbackCopy(text, done) {
+  const ta = document.createElement("textarea"); ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand("copy"); done(); } catch(e) { showToast("Copy failed — select manually"); }
+  document.body.removeChild(ta);
+}
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastTimer); toastTimer = setTimeout(function(){ t.classList.remove("show"); }, 2200);
+}
+
+/* ---------- init ---------- */
+document.getElementById("generateBtn").addEventListener("click", generate);
+document.getElementById("who").addEventListener("change", generate);
+document.getElementById("milestone").addEventListener("change", generate);
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

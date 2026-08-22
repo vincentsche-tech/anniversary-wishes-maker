@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "version": "0.1",
+    "site": "anniversarywishesmaker.com",
+    "note": "周年祝福词库 v0.1：5对象 × 4风格 + 5里程碑年份 + work 职场",
+    "quality": "手工打磨，温暖真诚，带具体感"
+  },
+  "recipients": {
+    "husband": {
+      "label": "Anniversary Wishes for Husband",
+      "messages": {
+        "romantic": [
+          "Happy anniversary to my husband, my best friend, and my favorite person. Every year with you is my favorite year.",
+          "To the man who still gives me butterflies: happy anniversary. Loving you is the easiest and best thing I've ever done.",
+          "Another year of us, and I love you more today than I did on our wedding day. Happy anniversary, my love.",
+          "Thank you for choosing me every single day. Happy anniversary to the love of my life."
+        ],
+        "funny": [
+          "Happy anniversary! Thanks for putting up with me for another year — I promise I'm still worth it. 😉",
+          "Happy anniversary to my favorite person to annoy for life. Love you anyway!",
+          "Another year married, and you still haven't run away. That's true love. Happy anniversary!",
+          "Happy anniversary! We've survived [X] years of my cooking and your snoring. Here's to forever!"
+        ],
+        "short": [
+          "Happy anniversary, my love. Here's to us.",
+          "Still crazy about you after all these years. Happy anniversary!",
+          "Happy anniversary to my favorite person in the world.",
+          "Every day with you is a gift. Happy anniversary!"
+        ],
+        "religious": [
+          "Happy anniversary, my love. Thank God every day for bringing you into my life. 'Two are better than one' (Ecclesiastes 4:9).",
+          "Celebrating another year of God's blessing on our marriage. Happy anniversary, my husband.",
+          "May God continue to bless our marriage as we celebrate another year together. Happy anniversary!"
+        ]
+      }
+    },
+    "wife": {
+      "label": "Anniversary Wishes for Wife",
+      "messages": {
+        "romantic": [
+          "Happy anniversary to my beautiful wife. You are the best thing that ever happened to me, and I fall for you more every year.",
+          "To my wife, my partner, my home: happy anniversary. Loving you is the greatest privilege of my life.",
+          "Every love story is beautiful, but ours is my favorite. Happy anniversary, my darling wife.",
+          "Thank you for being my soft place to land. Happy anniversary to the woman who makes everything better."
+        ],
+        "funny": [
+          "Happy anniversary to the woman who still laughs at my jokes. You're a keeper (and so am I, apparently).",
+          "Happy anniversary! You're still the best decision I ever made. My second-best decision was learning to say 'yes, dear.'",
+          "Another year of marriage and you still haven't filed for divorce. Winning! Happy anniversary!",
+          "Happy anniversary! Thanks for being my better half — literally, because I'm only half as good without you."
+        ],
+        "short": [
+          "Happy anniversary to my amazing wife.",
+          "You're my everything. Happy anniversary, my love.",
+          "Happy anniversary to the woman who makes life beautiful.",
+          "Still the love of my life. Happy anniversary!"
+        ],
+        "religious": [
+          "Happy anniversary, my love. 'Love is patient, love is kind' (1 Corinthians 13:4) — and you are both. Thank God for you.",
+          "Celebrating the gift of our marriage. Happy anniversary to my wonderful wife. God blessed me with you.",
+          "May God continue to guide our marriage with love. Happy anniversary, my dear wife."
+        ]
+      }
+    },
+    "couple": {
+      "label": "Anniversary Wishes for a Couple",
+      "messages": {
+        "romantic": [
+          "Happy anniversary to a couple whose love inspires everyone around them. Wishing you many more years of happiness.",
+          "May your love continue to grow deeper with every passing year. Happy anniversary to a beautiful couple!",
+          "Happy anniversary! Your love story is proof that true love exists. Wishing you a lifetime of joy.",
+          "Watching the two of you together is a reminder that love really does conquer all. Happy anniversary!"
+        ],
+        "funny": [
+          "Happy anniversary! May your love continue to grow, and may your arguments stay about whose turn it is to pick the movie.",
+          "Happy anniversary to the couple who proves that love is real — and that sharing a blanket is still a struggle.",
+          "Congrats on another year of marriage! You've officially survived [X] years of each other's quirks. Impressive!",
+          "Happy anniversary! Here's to love, laughter, and happily ever after (with occasional bickering over the thermostat)."
+        ],
+        "short": [
+          "Happy anniversary to a wonderful couple!",
+          "Wishing you both a happy anniversary filled with love.",
+          "Happy anniversary! May your love story never end.",
+          "Congratulations on another year of love. Happy anniversary!"
+        ],
+        "religious": [
+          "Happy anniversary! May God continue to bless your marriage with love, patience, and joy. 'What God has joined together' (Mark 10:9).",
+          "Celebrating the beautiful marriage God has blessed. Happy anniversary to a wonderful couple!",
+          "May your anniversary be filled with gratitude for the love God has given you. Blessings on your marriage!"
+        ]
+      }
+    },
+    "parents": {
+      "label": "Anniversary Wishes for Parents",
+      "messages": {
+        "romantic": [
+          "Happy anniversary to the couple who taught me what love looks like. Your love is my favorite example of forever.",
+          "Thank you for showing us what a real marriage looks like. Happy anniversary, Mom and Dad!",
+          "Your love story built our family, and we're so grateful. Happy anniversary to the best parents in the world!",
+          "Every milestone you celebrate together is a gift to our family. Happy anniversary, Mom and Dad!"
+        ],
+        "funny": [
+          "Happy anniversary, Mom and Dad! Thanks for proving that love (and patience) can survive decades of parenting.",
+          "Congrats on another year of marriage! You two are the reason I believe in love — and in family game nights.",
+          "Happy anniversary to the original lovebirds! Thanks for setting the bar (and for all those years of embarrassing us lovingly).",
+          "Another year married, another year of Dad's jokes and Mom's eye rolls. Happy anniversary! True love indeed."
+        ],
+        "short": [
+          "Happy anniversary to the best parents in the world!",
+          "Wishing you both a beautiful anniversary. We love you!",
+          "Happy anniversary, Mom and Dad! So grateful for your love.",
+          "Congrats on another year of love. Happy anniversary!"
+        ],
+        "religious": [
+          "Happy anniversary, Mom and Dad! Your marriage is a testimony of God's faithfulness. We're so blessed by your example.",
+          "Thank you for building our family on love and faith. Happy anniversary, and may God continue to bless your marriage.",
+          "Celebrating the godly marriage you've modeled for us. Happy anniversary, Mom and Dad!"
+        ]
+      }
+    },
+    "friend": {
+      "label": "Anniversary Wishes for Friends",
+      "messages": {
+        "romantic": [
+          "Happy anniversary to two of my favorite people! Your love is beautiful to witness.",
+          "Wishing my favorite couple a happy anniversary! May your love keep growing stronger.",
+          "So happy to celebrate your anniversary! Your relationship is one of the best things in my life to watch."
+        ],
+        "funny": [
+          "Happy anniversary, you two! Thanks for being the couple that gives the rest of us hope (and couple goals).",
+          "Congrats on another year of marriage! I've seen you fight over the remote, so I know this love is real.",
+          "Happy anniversary! May your love be as strong as your WiFi connection. (So, very strong.)"
+        ],
+        "short": [
+          "Happy anniversary to a wonderful couple!",
+          "Wishing you both a beautiful anniversary!",
+          "Happy anniversary! So happy for you two.",
+          "Congrats on another year of love!"
+        ],
+        "religious": [
+          "Happy anniversary! May God continue to bless your marriage richly. So happy to celebrate you both.",
+          "Celebrating God's goodness in your marriage. Happy anniversary, friends!",
+          "Wishing you a blessed anniversary. Your marriage is a testimony!"
+        ]
+      }
+    }
+  },
+  "milestones": {
+    "1st": {
+      "label": "1st Anniversary Wishes",
+      "note": "Paper anniversary — the first year of marriage, full of new memories.",
+      "messages": {
+        "romantic": [
+          "Happy 1st anniversary! The first year of forever, and it's been the best year of my life.",
+          "One year down, forever to go. Happy 1st anniversary, my love!",
+          "Happy anniversary! Year one was beautiful — I can't wait for all the years ahead.",
+          "Our first year of marriage was everything I dreamed and more. Happy 1st anniversary!"
+        ],
+        "funny": [
+          "Happy 1st anniversary! We survived year one — the hardest part is over (or so they say).",
+          "One year married! You've officially seen me at my best and my most annoying. And you stayed. Happy anniversary!",
+          "Happy 1st anniversary! Year one complete, and you still haven't run for the hills. Impressive."
+        ],
+        "short": [
+          "Happy 1st anniversary! Here's to forever.",
+          "One year of us. Happy anniversary, my love!",
+          "Happy 1st anniversary to my favorite person!",
+          "Year one was amazing. Happy anniversary!"
+        ],
+        "religious": [
+          "Happy 1st anniversary! Thank God for our first year of marriage. 'What God has joined together' — and what a year it's been.",
+          "Celebrating one year of God's blessing on our marriage. Happy anniversary, my love!"
+        ]
+      }
+    },
+    "25th": {
+      "label": "25th Anniversary Wishes (Silver)",
+      "note": "Silver anniversary — 25 years of marriage, a true milestone.",
+      "messages": {
+        "romantic": [
+          "Happy 25th anniversary! A quarter century of love, and you still make my heart skip a beat.",
+          "Twenty-five years ago we said 'I do,' and I'd say it again a thousand times. Happy silver anniversary, my love.",
+          "Happy 25th anniversary! Our love has stood the test of time — and it's only getting stronger.",
+          "A quarter of a century with you, and I love you more every single day. Happy silver anniversary!"
+        ],
+        "funny": [
+          "Happy 25th anniversary! 25 years, 25 years of you stealing the covers. Worth it.",
+          "Congrats on 25 years! That's 9,125 days of marriage — and you've made it look easy (mostly).",
+          "Happy silver anniversary! 25 years of love, laughter, and 'what did you say?' — here's to 25 more!"
+        ],
+        "short": [
+          "Happy 25th anniversary! What a milestone.",
+          "25 years of love. Happy silver anniversary!",
+          "Congratulations on 25 beautiful years together!",
+          "Happy anniversary! A quarter century of love."
+        ],
+        "religious": [
+          "Happy 25th anniversary! A quarter century of God's faithfulness to your marriage. What a blessing!",
+          "Celebrating 25 years of marriage — a testimony of love and faith. Happy silver anniversary!",
+          "Thank God for 25 years of your marriage. May He bless you with 25 more. Happy anniversary!"
+        ]
+      }
+    },
+    "50th": {
+      "label": "50th Anniversary Wishes (Golden)",
+      "note": "Golden anniversary — 50 years of marriage, a rare and precious milestone.",
+      "messages": {
+        "romantic": [
+          "Happy 50th anniversary! Half a century of love, and your story is more beautiful than any fairy tale.",
+          "Fifty years ago you promised forever — and you meant it. Happy golden anniversary, my love.",
+          "Happy 50th anniversary! Your love has been the gold standard for everyone who knows you.",
+          "A lifetime of love, laughter, and memories. Happy 50th anniversary to the couple who defines forever!"
+        ],
+        "funny": [
+          "Happy 50th anniversary! 50 years — you've officially made it longer than most appliances and just as reliable. 😉",
+          "Congrats on 50 years! That's half a century of 'I love you' and 'did you take out the trash?' Beautifully done.",
+          "Happy golden anniversary! 50 years of marriage — you two are the real gold."
+        ],
+        "short": [
+          "Happy 50th anniversary! A golden milestone.",
+          "50 years of love. Happy golden anniversary!",
+          "Congratulations on 50 beautiful years together!",
+          "Happy anniversary! Half a century of love."
+        ],
+        "religious": [
+          "Happy 50th anniversary! Half a century of God's faithfulness to your marriage. Truly a golden blessing!",
+          "Celebrating 50 years of marriage — a shining testimony of love and faith. Happy golden anniversary!",
+          "Thank God for 50 years of your marriage. May your golden anniversary be filled with joy and gratitude."
+        ]
+      }
+    },
+    "work": {
+      "label": "Work Anniversary Wishes",
+      "note": "Work anniversaries celebrate professional milestones — a different kind of anniversary with its own etiquette.",
+      "messages": {
+        "romantic": [
+          "Happy work anniversary! Your dedication and passion inspire everyone on the team.",
+          "Congratulations on another year of excellence! Your contributions have made a real difference.",
+          "Happy work anniversary! Thank you for your commitment and the positive energy you bring every day."
+        ],
+        "funny": [
+          "Happy work anniversary! Thanks for showing up, showing out, and not showing up late too often.",
+          "Congrats on another year at the office! We'd be lost without you (literally — the printer confuses us).",
+          "Happy work anniversary! Another year of making it look easy. Your coffee skills and teamwork are unmatched."
+        ],
+        "short": [
+          "Happy work anniversary! We're lucky to have you.",
+          "Congrats on another great year! Happy anniversary.",
+          "Happy work anniversary! Here's to many more.",
+          "Happy anniversary at work — you're appreciated!"
+        ],
+        "religious": [
+          "Happy work anniversary! May God continue to bless your work and your calling.",
+          "Congrats on your work anniversary! 'Whatever you do, work at it with all your heart' (Colossians 3:23). You embody this."
+        ]
+      }
+    }
+  }
+}

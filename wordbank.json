@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.1",
+    "version": "0.2",
     "site": "anniversarywishesmaker.com",
     "note": "周年祝福词库 v0.1：5对象 × 4风格 + 5里程碑年份 + work 职场",
     "quality": "手工打磨，温暖真诚，带具体感"
@@ -252,6 +252,62 @@
         "religious": [
           "Happy work anniversary! May God continue to bless your work and your calling.",
           "Congrats on your work anniversary! 'Whatever you do, work at it with all your heart' (Colossians 3:23). You embody this."
+        ]
+      }
+    },
+    "5th": {
+      "label": "5th Anniversary Wishes",
+      "note": "Five years of marriage — the foundation is built, the adventure continues.",
+      "messages": {
+        "romantic": [
+          "Happy 5th anniversary! Five years of building a life together, and I'd choose you again every single time.",
+          "Five years ago we started this adventure, and every year with you gets better. Happy 5th anniversary, my love!",
+          "Happy 5th anniversary! We've built a foundation of love that can weather anything. Here's to forever.",
+          "Five years of us, and my love for you has only grown. Happy anniversary to my favorite person."
+        ],
+        "funny": [
+          "Happy 5th anniversary! Five years in, and you still haven't figured out my mood swings. Lucky for you, I love you anyway!",
+          "Congrats on 5 years! That's 1,825 days of putting up with each other. We should get medals. Happy anniversary!",
+          "Happy 5th anniversary! We've survived 5 years of marriage, which means we're officially qualified to give advice. (We won't, though.)"
+        ],
+        "short": [
+          "Happy 5th anniversary! Here's to us.",
+          "Five years of love. Happy anniversary!",
+          "Happy 5th anniversary to my favorite person!",
+          "Five years down, forever to go!"
+        ],
+        "religious": [
+          "Happy 5th anniversary! Thank God for five years of marriage. 'Love never fails' (1 Corinthians 13:8).",
+          "Celebrating five years of God's blessing on our marriage. Happy anniversary, my love!",
+          "May God continue to guide our love story. Happy 5th anniversary!"
+        ]
+      }
+    },
+    "10th": {
+      "label": "10th Anniversary Wishes",
+      "note": "Ten years of marriage — a decade of love, growth, and shared history. Traditional gift: tin or aluminum.",
+      "messages": {
+        "romantic": [
+          "Happy 10th anniversary! A decade of love, laughter, and growing together. I love you more every single day.",
+          "Ten years ago we said forever — and we meant it. Happy 10th anniversary, my love!",
+          "Happy 10th anniversary! A decade of building our life together, and the best is yet to come.",
+          "Ten years with you, and I'd do it all again in a heartbeat. Happy anniversary to my everything."
+        ],
+        "funny": [
+          "Happy 10th anniversary! A decade of marriage — we've officially lasted longer than most celebrity marriages. Go us!",
+          "Congrats on 10 years! That's a decade of 'what do you want for dinner?' and 'I don't know, what do YOU want?' True love.",
+          "Happy 10th anniversary! Ten years in, and we still like each other. That's practically a miracle. Love you!"
+        ],
+        "short": [
+          "Happy 10th anniversary! A decade of us.",
+          "Ten years of love. Happy anniversary!",
+          "Happy 10th anniversary to my forever person!",
+          "A decade together. Happy anniversary!"
+        ],
+        "religious": [
+          "Happy 10th anniversary! A decade of God's faithfulness to our marriage. What a blessing!",
+          "Celebrating ten years of marriage — a testament to love and faith. Happy anniversary, my love!",
+          "Thank God for ten years of our love story. May He bless us with many more. Happy anniversary!"
         ]
       }
     }

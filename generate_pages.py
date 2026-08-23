@@ -161,6 +161,35 @@ PAGES = [
              '"Happy work anniversary! Thanks for showing up, showing out, and not showing up late too often." Funny messages work great for close colleagues.'),
         ],
     },
+
+    {
+        'slug': '5th-anniversary-wishes',
+        'h1': '5th Anniversary Wishes',
+        'title': '5th Anniversary Wishes – 30+ Sweet Messages for Five Years',
+        'desc': 'Celebrate five years of marriage with these 5th anniversary wishes — romantic, funny, short, and religious messages.',
+        'data': '5th',
+        'intro': 'Five years of marriage is a beautiful milestone — the foundation is built, the adventure continues. These wishes celebrate half a decade of love.',
+        'faq': [
+            ('What should I write for a 5th anniversary?',
+             '"Five years of building a life together, and I would choose you again every single time." Add a memory from your five years — your first home, a trip, a shared achievement.'),
+            ('What is the traditional 5th anniversary gift?',
+             'Wood is the traditional 5th anniversary gift — symbolizing the strength and roots of your relationship. Personalized wooden items are popular choices.'),
+        ],
+    },
+    {
+        'slug': '10th-anniversary-wishes',
+        'h1': '10th Anniversary Wishes',
+        'title': '10th Anniversary Wishes – 30+ Messages for a Decade of Love',
+        'desc': 'Celebrate ten years of marriage with these 10th anniversary wishes — romantic, funny, short, and religious messages for a decade of love.',
+        'data': '10th',
+        'intro': 'Ten years of marriage is a true milestone — a decade of love, growth, and shared history. These wishes honor that beautiful journey.',
+        'faq': [
+            ('What should I write for a 10th anniversary?',
+             '"Happy 10th anniversary! A decade of love, laughter, and growing together." Acknowledge the decade and the growth you have shared.'),
+            ('What is the traditional 10th anniversary gift?',
+             'Tin or aluminum is the traditional 10th anniversary gift — symbolizing flexibility and durability. Modern alternatives include diamond jewelry.'),
+        ],
+    },
     {
         'slug': 'wedding-anniversary-wishes',
         'h1': 'Wedding Anniversary Wishes',

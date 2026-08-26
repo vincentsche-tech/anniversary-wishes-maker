@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anniversary Gift Calculator – Traditional &amp; Modern Gifts by Year</title>
+<meta name="description" content="Find the traditional and modern anniversary gift for any year from 1 to 75. Paper, cotton, leather, tin, crystal, silver, gold and more — plus a free countdown to your next anniversary.">
+<link rel="canonical" href="https://www.anniversarywishesmaker.com/anniversary-calculator.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anniversary Gift Calculator – Traditional &amp; Modern Gifts by Year">
+<meta property="og:description" content="Find the traditional and modern anniversary gift for any year from 1 to 75 — plus a free countdown to your next anniversary.">
+<meta property="og:url" content="https://www.anniversarywishesmaker.com/anniversary-calculator.html">
+<meta property="og:image" content="https://www.anniversarywishesmaker.com/og-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anniversary Gift Calculator – Traditional &amp; Modern Gifts by Year">
+<meta name="twitter:description" content="Find the traditional and modern anniversary gift for any year from 1 to 75 — plus a free countdown to your next anniversary.">
+<meta name="twitter:image" content="https://www.anniversarywishesmaker.com/og-cover.png">
+<meta name="theme-color" content="#b8860b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%82%3C/text%3E%3C/svg%3E">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3D1TKQB9R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q3D1TKQB9R');
+</script>
+<style>
+  :root{--bg:#fdf9f2;--card:#fff;--ink:#3a362f;--muted:#8d8578;--accent:#b8860b;--accent-dark:#9a7209;--soft:#faf3e3;--line:#eee5d2;--radius:14px;--shadow:0 4px 20px rgba(58,54,47,.06);}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;}
+  h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:700;letter-spacing:-.2px;}
+  header{background:#fff;border-bottom:1px solid var(--line);padding:16px 0;}
+  header .inner{max-width:960px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .logo{background:var(--accent);color:#fff;font-family:Georgia,serif;font-size:15px;font-weight:700;padding:7px 14px;border-radius:8px;text-decoration:none;}
+  nav.topnav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap;}
+  nav.topnav a{color:var(--muted);font-size:14px;text-decoration:none;}
+  nav.topnav a:hover{color:var(--accent);}
+  main{max-width:960px;margin:0 auto;padding:36px 20px 64px;}
+  .hero{text-align:center;margin-bottom:28px;}
+  .hero h1{font-size:32px;line-height:1.25;}
+  .hero p{color:var(--muted);margin-top:12px;font-size:16px;max-width:660px;margin-left:auto;margin-right:auto;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:28px;margin-bottom:24px;}
+  .card h2{font-size:20px;margin-bottom:14px;}
+  label{display:block;font-size:14px;font-weight:600;margin-bottom:6px;color:var(--ink);}
+  input,select{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;font-size:15px;background:#fff;color:var(--ink);margin-bottom:16px;}
+  input:focus,select:focus{outline:none;border-color:var(--accent);}
+  .pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;}
+  .pill{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-size:14px;cursor:pointer;color:var(--ink);transition:all .15s;font-weight:500;}
+  .pill:hover{border-color:var(--accent);}
+  .pill.active{background:var(--accent);border-color:var(--accent);color:#fff;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;border:none;border-radius:10px;padding:13px 28px;font-size:16px;font-weight:600;cursor:pointer;transition:background .15s;width:100%;}
+  .btn:hover{background:var(--accent-dark);}
+  .gift-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:8px 0 4px;}
+  .gift-cell{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px;}
+  .gift-cell .lbl{font-size:12.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;}
+  .gift-cell .val{font-size:18px;font-weight:700;color:var(--accent-dark);font-family:Georgia,serif;}
+  .year-badge{font-size:15px;color:var(--ink);margin:10px 0;font-weight:600;}
+  .calc-result{display:none;}
+  .countdown-result{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:18px;font-size:16px;margin-top:14px;display:none;}
+  .countdown-result b{color:var(--accent-dark);font-family:Georgia,serif;font-size:18px;}
+  .hint{color:var(--muted);font-size:13.5px;margin-top:10px;}
+  .advice-box{background:var(--soft);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;padding:18px 20px;margin:16px 0;}
+  .advice-box h3{font-size:16px;margin-bottom:8px;}
+  .advice-box ul{margin-left:20px;}
+  .advice-box li{margin-bottom:6px;font-size:14.5px;}
+  .faq-item{margin-bottom:18px;}
+  .faq-item b{display:block;margin-bottom:4px;font-size:15px;}
+  .faq-item p{font-size:14.5px;color:#6b6356;}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:28px 0 48px;border-top:1px solid var(--line);}
+  footer a{color:var(--accent);text-decoration:none;}
+  @media(max-width:600px){.hero h1{font-size:25px;}.gift-grid{grid-template-columns:1fr;}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Anniversary Gift Calculator",
+  "url": "https://www.anniversarywishesmaker.com/anniversary-calculator.html",
+  "description": "Look up the traditional and modern anniversary gift for any year from 1 to 75, and count down to your next anniversary. Free, instant, no sign-up.",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the traditional gift for a 10th anniversary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tin or aluminum is the traditional 10th anniversary gift — symbolizing flexibility and durability that a decade of marriage builds. The modern 10th-anniversary gift is diamond."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the traditional anniversary gifts by year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The classic list starts with paper (year 1), cotton (2), leather (3), fruit & flowers (4), wood (5), then milestones like tin/aluminum (10), crystal (15), china (20), silver (25), ruby (40), and gold (50), running all the way to diamond at 60 and 75."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the modern gift for a 25th anniversary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Silver — the same as the traditional gift, marking the 'silver' milestone. Modern anniversary lists pair each year with a contemporary material such as clocks, silverware, watches, or diamonds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there an anniversary gift for every year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard lists define gifts for years 1 through 25, then every fifth year (30, 35, 40, 45, 50 and beyond). For years without a set traditional gift, a personalized present — jewelry, a photo book, or a shared experience — is the norm."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <a class="logo" href="/">🥂 Anniversary Wishes</a>
+    <nav class="topnav">
+      <a href="/">Generator</a>
+      <a href="/anniversary-wishes-for-husband.html">For Husband</a>
+      <a href="/anniversary-wishes-for-wife.html">For Wife</a>
+      <a href="/anniversary-wishes-for-couple.html">For Couple</a>
+      <a href="/work-anniversary-wishes.html">Work</a>
+      <a href="/about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <h1>Anniversary Gift Calculator</h1>
+    <p>Not sure what the "right" gift is this year? Enter your anniversary number to see the traditional and modern gift — then count down the days to your next celebration. Free, instant, no sign-up.</p>
+  </div>
+
+  <div class="card">
+    <h2>🎁 Traditional &amp; Modern Gift by Year</h2>
+    <label for="yearInput">Which anniversary is it?</label>
+    <input type="number" id="yearInput" min="1" max="75" placeholder="e.g. 10" inputmode="numeric">
+    <label style="margin-top:4px;">Jump to a popular year</label>
+    <div class="pill-row" id="yearPills">
+      <span class="pill" data-year="1">1st</span>
+      <span class="pill" data-year="5">5th</span>
+      <span class="pill" data-year="10">10th</span>
+      <span class="pill" data-year="15">15th</span>
+      <span class="pill" data-year="20">20th</span>
+      <span class="pill" data-year="25">25th</span>
+      <span class="pill" data-year="50">50th</span>
+    </div>
+    <button class="btn" id="giftBtn">Show the Gifts</button>
+    <div class="card calc-result" id="giftResult" style="margin-top:18px;">
+      <div class="year-badge" id="yearBadge"></div>
+      <div class="gift-grid">
+        <div class="gift-cell"><div class="lbl">Traditional Gift</div><div class="val" id="traditionalVal"></div></div>
+        <div class="gift-cell"><div class="lbl">Modern Gift</div><div class="val" id="modernVal"></div></div>
+      </div>
+      <p class="hint" id="giftHint"></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>⏳ Countdown to Your Next Anniversary</h2>
+    <p style="font-size:14.5px;color:#6b6356;margin-bottom:14px;">Pick your anniversary date and we'll tell you exactly how many days until you celebrate again.</p>
+    <label for="dateInput">Your anniversary date</label>
+    <input type="date" id="dateInput">
+    <button class="btn" id="countdownBtn">Calculate Countdown</button>
+    <div class="countdown-result" id="countdownResult"></div>
+  </div>
+
+  <div class="card">
+    <h2>Traditional vs. Modern: Why Two Lists?</h2>
+    <div class="advice-box">
+      <h3>The short version</h3>
+      <ul>
+        <li><b>Traditional gifts</b> date back generations — paper, cotton, leather, wood, tin, silver, gold. They're symbolic: paper for a fresh start, silver for a bond that's hardened, gold for a love that's truly precious.</li>
+        <li><b>Modern gifts</b> were added in the 20th century to feel more practical — clocks, silverware, appliances, watches, diamonds.</li>
+        <li><b>Either is right.</b> Many couples mix both: a silver picture frame (traditional) with a modern experience, or diamond earrings (modern 10th) presented in a tin keepsake box.</li>
+      </ul>
+    </div>
+    <p style="margin-top:14px;font-size:15px;">Looking for the words to go with the gift? The <a href="/" style="color:var(--accent);">free anniversary wishes generator</a> writes a heartfelt message in seconds — romantic, funny, short, or faith-filled.</p>
+  </div>
+
+  <div class="card">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item"><b>What is the traditional gift for a 10th anniversary?</b><p>Tin or aluminum is the traditional 10th anniversary gift — symbolizing flexibility and durability that a decade of marriage builds. The modern 10th-anniversary gift is diamond.</p></div>
+    <div class="faq-item"><b>What are the traditional anniversary gifts by year?</b><p>The classic list starts with paper (year 1), cotton (2), leather (3), fruit &amp; flowers (4), wood (5), then milestones like tin/aluminum (10), crystal (15), china (20), silver (25), ruby (40), and gold (50), running all the way to diamond at 60 and 75.</p></div>
+    <div class="faq-item"><b>What is the modern gift for a 25th anniversary?</b><p>Silver — the same as the traditional gift, marking the "silver" milestone. Modern anniversary lists pair each year with a contemporary material such as clocks, silverware, watches, or diamonds.</p></div>
+    <div class="faq-item"><b>Is there an anniversary gift for every year?</b><p>Standard lists define gifts for years 1 through 25, then every fifth year (30, 35, 40, 45, 50 and beyond). For years without a set traditional gift, a personalized present — jewelry, a photo book, or a shared experience — is the norm.</p></div>
+  </div>
+</main>
+
+<footer>
+  Copyright <span id="year"></span> © <a href="/">Anniversary Wishes</a>. Made with love for all the anniversaries.<br>
+  <a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy-policy.html">Privacy</a> · <a href="/terms.html">Terms</a>
+</footer>
+
+<script>
+/* ---------- anniversary gift data (traditional + modern) ---------- */
+const GIFTS = {
+  1:{t:"Paper",m:"Clock"},2:{t:"Cotton",m:"China"},3:{t:"Leather",m:"Crystal"},
+  4:{t:"Fruit & Flowers",m:"Appliances"},5:{t:"Wood",m:"Silverware"},6:{t:"Candy",m:"Iron"},
+  7:{t:"Wool & Copper",m:"Desk Sets"},8:{t:"Bronze & Pottery",m:"Linens & Lace"},9:{t:"Pottery & Willow",m:"Leather"},
+  10:{t:"Tin & Aluminum",m:"Diamond"},11:{t:"Steel",m:"Fashion Jewelry"},12:{t:"Silk & Linen",m:"Pearls"},
+  13:{t:"Lace",m:"Textiles & Furs"},14:{t:"Ivory",m:"Gold Jewelry"},15:{t:"Crystal",m:"Watches"},
+  16:{t:"Silver Holloware",m:"Silverware"},17:{t:"Furniture",m:"Furniture"},18:{t:"Porcelain",m:"Porcelain"},
+  19:{t:"Bronze",m:"Bronze"},20:{t:"China",m:"Platinum"},21:{t:"Brass & Nickel",m:null},
+  22:{t:"Copper",m:null},23:{t:"Silver Plate",m:null},24:{t:"Musical Instruments",m:null},
+  25:{t:"Silver",m:"Silver"},30:{t:"Pearl",m:"Diamond"},35:{t:"Coral",m:"Jade"},
+  40:{t:"Ruby",m:"Ruby"},45:{t:"Sapphire",m:"Sapphire"},50:{t:"Gold",m:"Gold"},
+  55:{t:"Emerald",m:"Emerald"},60:{t:"Diamond",m:"Diamond"},65:{t:"Blue Sapphire",m:null},
+  70:{t:"Platinum",m:"Platinum"},75:{t:"Diamond",m:"Diamond"}
+};
+const NAMES = {1:"First",5:"Wood",10:"Tin",15:"Crystal",20:"China",25:"Silver",30:"Pearl",35:"Coral",40:"Ruby",45:"Sapphire",50:"Golden",55:"Emerald",60:"Diamond",65:"Blue Sapphire",70:"Platinum",75:"Diamond"};
+
+/* ---------- gift calculator ---------- */
+function calcGift() {
+  const raw = document.getElementById("yearInput").value;
+  const yr = parseInt(raw, 10);
+  const res = document.getElementById("giftResult");
+  const badge = document.getElementById("yearBadge");
+  const tEl = document.getElementById("traditionalVal");
+  const mEl = document.getElementById("modernVal");
+  const hint = document.getElementById("giftHint");
+  if (isNaN(yr) || yr < 1 || yr > 75) {
+    res.style.display = "none";
+    hint.textContent = "";
+    alert("Please enter a year between 1 and 75.");
+    return;
+  }
+  const g = GIFTS[yr];
+  if (!g) {
+    badge.textContent = "Year " + yr + " anniversary";
+    tEl.textContent = "Personalized gift";
+    mEl.textContent = "Personalized gift";
+    hint.textContent = "There's no standardized gift for year " + yr + ". Most couples mark it with something personal — jewelry, a photo book, or an experience you share together.";
+    res.style.display = "block";
+    gtag('event', 'anniversary_gift_calc', { year: yr, found: false });
+    return;
+  }
+  badge.textContent = "Year " + yr + " anniversary" + (NAMES[yr] ? " — the " + NAMES[yr] + " milestone" : "");
+  tEl.textContent = g.t;
+  mEl.textContent = g.m ? g.m : "Personalized gift";
+  hint.textContent = g.m
+    ? "Pair the traditional " + g.t.toLowerCase() + " with the modern " + g.m.toLowerCase() + " for a gift that honors both lists."
+    : "No modern gift is standardized for this year — a personalized present works perfectly.";
+  res.style.display = "block";
+  gtag('event', 'anniversary_gift_calc', { year: yr, found: true });
+}
+
+/* ---------- quick-pick pills ---------- */
+document.querySelectorAll("#yearPills .pill").forEach(p => {
+  p.addEventListener("click", () => {
+    document.querySelectorAll("#yearPills .pill").forEach(x => x.classList.remove("active"));
+    p.classList.add("active");
+    document.getElementById("yearInput").value = p.dataset.year;
+    calcGift();
+  });
+});
+document.getElementById("giftBtn").addEventListener("click", calcGift);
+document.getElementById("yearInput").addEventListener("keydown", e => { if (e.key === "Enter") calcGift(); });
+
+/* ---------- countdown ---------- */
+function calcCountdown() {
+  const v = document.getElementById("dateInput").value;
+  const out = document.getElementById("countdownResult");
+  if (!v) { out.style.display = "none"; alert("Please choose your anniversary date first."); return; }
+  const parts = v.split("-");
+  const month = parseInt(parts[1], 10);
+  const day = parseInt(parts[2], 10);
+  const today = new Date(); today.setHours(0,0,0,0);
+  let next = new Date(today.getFullYear(), month - 1, day);
+  if (next < today) next = new Date(today.getFullYear() + 1, month - 1, day);
+  const diff = Math.round((next - today) / 86400000);
+  const opts = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
+  out.innerHTML = "Your next anniversary is on <b>" + next.toLocaleDateString("en-US", opts) + "</b> — <b>" + diff + "</b> day" + (diff === 1 ? "" : "s") + " away. Time to plan something special! 🥂";
+  out.style.display = "block";
+  gtag('event', 'anniversary_countdown', {});
+}
+document.getElementById("countdownBtn").addEventListener("click", calcCountdown);
+
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

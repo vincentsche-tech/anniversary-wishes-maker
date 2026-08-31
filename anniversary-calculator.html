@@ -261,6 +261,7 @@ function calcGift() {
     hint.textContent = "There's no standardized gift for year " + yr + ". Most couples mark it with something personal — jewelry, a photo book, or an experience you share together.";
     res.style.display = "block";
     gtag('event', 'anniversary_gift_calc', { year: yr, found: false });
+      gtag('event', 'tool_complete', { action: 'gift_calc', year: yr, found: false });
     return;
   }
   badge.textContent = "Year " + yr + " anniversary" + (NAMES[yr] ? " — the " + NAMES[yr] + " milestone" : "");
@@ -271,6 +272,7 @@ function calcGift() {
     : "No modern gift is standardized for this year — a personalized present works perfectly.";
   res.style.display = "block";
   gtag('event', 'anniversary_gift_calc', { year: yr, found: true });
+      gtag('event', 'tool_complete', { action: 'gift_calc', year: yr, found: true });
 }
 
 /* ---------- quick-pick pills ---------- */
@@ -301,6 +303,7 @@ function calcCountdown() {
   out.innerHTML = "Your next anniversary is on <b>" + next.toLocaleDateString("en-US", opts) + "</b> — <b>" + diff + "</b> day" + (diff === 1 ? "" : "s") + " away. Time to plan something special! 🥂";
   out.style.display = "block";
   gtag('event', 'anniversary_countdown', {});
+      gtag('event', 'tool_complete', { action: 'countdown' });
 }
 document.getElementById("countdownBtn").addEventListener("click", calcCountdown);
 

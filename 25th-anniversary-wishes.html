@@ -208,6 +208,24 @@
     <h2>The Meaning of the Silver (25th) Anniversary</h2>
     <p style="font-size:15px;line-height:1.7;">A quarter century together is a milestone most couples only dream of. Silver marks the occasion — a metal that's both precious and lasting, like the marriage itself. Acknowledge the achievement plainly and warmly: "25 years of love is a beautiful thing, and I'm grateful for every one."</p>
   </div>
+
+  <div class="card guide">
+    <h2>Silver Wedding Anniversary Wishes &amp; Toasts</h2>
+    <p>A silver wedding anniversary — 25 years — is the milestone most tied to the metal itself. When you write for a silver wedding, lean into the "lasting like silver" image: precious, polished by time, and still bright after a quarter century. A few lines you can copy and make your own:</p>
+    <ul style="margin-left:20px;font-size:15px;line-height:1.7;">
+      <li>"Twenty-five years, and your love still shines like silver — happy silver wedding anniversary."</li>
+      <li>"A quarter century together, polished by every hard year and bright because of it. Congratulations on your silver wedding."</li>
+      <li><b>Silver wedding toast:</b> "To twenty-five years — may the next twenty-five be just as golden, and every day in between just as silver."</li>
+    </ul>
+    <p>For a card, keep it short and specific: name the year, name the couple, and let the silver metaphor do the work. "25 years of love, still shining" lands harder than a longer paragraph.</p>
+  </div>
+
+  <div class="card guide">
+    <h2>Silver Wedding Gift Ideas That Go Beyond the Frame</h2>
+    <p>Silver is the traditional gift, but a silver wedding doesn't have to mean only jewelry. Strong options that still honor the theme: a silver-etched photo book of the 25 years, engraved silver cufflinks or a bracelet, a silver serving tray for the milestone dinner, or a framed map of where they married in silver ink. The keepsake that references the date or the wedding day tends to get kept longest.</p>
+    <p>If the couple already has plenty of silver, pair a short handwritten silver-wedding wish with an experience — a dinner reservation, a weekend away, or tickets to something they love. The wish you copy from this page turns any of these into a personal gift.</p>
+  </div>
+
         <h2>More Anniversary Wishes</h2>
     <div class="grid">
       <a class="scene-card" href="/anniversary-calculator.html" style="border-color:var(--accent);box-shadow:var(--shadow);"><b>🎁 Anniversary Calculator</b><span>Traditional &amp; modern gifts for any year + countdown.</span></a>
@@ -254,6 +272,7 @@ document.querySelectorAll('.msg-copy').forEach(function(btn){
       showToast('Copied! Add your personal touch 💛');
       setTimeout(function(){btn.textContent='Copy';btn.classList.remove('copied');},1800);
       gtag('event','wish_copied',{});
+      gtag('event', 'tool_complete', { action: 'copy', page: '25th_anniversary_wishes' });
     }
     if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(text).then(done);}
     else{var ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done();}catch(e){}document.body.removeChild(ta);}

@@ -301,6 +301,7 @@ document.querySelectorAll('.msg-copy').forEach(function(btn){
       showToast('Copied! Add your personal touch 💛');
       setTimeout(function(){btn.textContent='Copy';btn.classList.remove('copied');},1800);
       gtag('event','wish_copied',{});
+      gtag('event', 'tool_complete', { action: 'copy', page: 'romantic_anniversary_wishes' });
     }
     if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(text).then(done);}
     else{var ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done();}catch(e){}document.body.removeChild(ta);}

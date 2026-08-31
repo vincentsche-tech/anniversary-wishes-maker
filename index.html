@@ -530,6 +530,7 @@ function generate() {
   document.getElementById("resultCard").style.display = "block";
   document.getElementById("resultCard").scrollIntoView({ behavior: "smooth", block: "start" });
   gtag('event', 'wish_generated', { recipient: who, milestone: milestone, tone: tone });
+      gtag('event', 'tool_complete', { action: 'generate', recipient: who, milestone: milestone, tone: tone });
 }
 
 function copyText(text, btnEl) {
@@ -537,6 +538,7 @@ function copyText(text, btnEl) {
     if (btnEl) { btnEl.textContent = "✓ Copied"; btnEl.classList.add("copied"); setTimeout(() => { if(btnEl){btnEl.textContent="Copy";btnEl.classList.remove("copied");} }, 1800); }
     showToast("Copied! Add your personal touch 💛");
     gtag('event', 'wish_copied', {});
+      gtag('event', 'tool_complete', { action: 'copy', page: 'index' });
   };
   if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(text).then(done).catch(function(){fallbackCopy(text, done);}); }
   else { fallbackCopy(text, done); }
